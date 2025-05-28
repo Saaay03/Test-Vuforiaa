@@ -9,6 +9,8 @@ public class DanceController : MonoBehaviour
    private UnityEvent OnSelectDance;
    [SerializeField]
    private Animator CharacterAnimator;
+   [SerializeField]
+   private NotesManager notesManager;
    private SoundData CurrentSoundData;
 
    public void ActivateSelectDnace()
@@ -26,5 +28,6 @@ public class DanceController : MonoBehaviour
    {
       CharacterAnimator.Play(CurrentSoundData.danceName);
       SoundManager.instance.PlayMusic(CurrentSoundData.musicName);
+      notesManager.StartNotes(CurrentSoundData.notesConfig, CurrentSoundData.Speed);
    }
 }

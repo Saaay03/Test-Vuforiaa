@@ -4,7 +4,7 @@ using UnityEngine;
 public class NotesChecker : MonoBehaviour
 {
     private List<GameObject> notes = new List<GameObject>();
-    private void OTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Note"))
         {
@@ -12,7 +12,7 @@ public class NotesChecker : MonoBehaviour
         }
     }
 
-    private void OTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Note"))
         {

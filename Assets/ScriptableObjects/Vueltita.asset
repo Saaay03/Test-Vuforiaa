@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicName: Vueltita
   danceName: Vuelta
-  notesConfig: {fileID: 0}
+  notesConfig: {fileID: 4900000, guid: e3f20c8a44283694c82931cf369f0f5e, type: 3}
   Speed: 0
