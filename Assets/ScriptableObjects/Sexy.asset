@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sexy
   m_EditorClassIdentifier: 
   musicName: Sexy
-  danceName: Baile
+  animationName: Baile
   notesConfig: {fileID: 4900000, guid: 86ca0f64b97e52b4e89bba4c34cd1342, type: 3}
-  Speed: 0
+  speed: 200

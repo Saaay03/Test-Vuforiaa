@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Bailecito
   m_EditorClassIdentifier: 
   musicName: Bailecito
-  danceName: Bailecito
+  animationName: Bailecito
   notesConfig: {fileID: 4900000, guid: 74f3a718f1c7ca746aad636c04365a6e, type: 3}
-  Speed: 0
+  speed: 200

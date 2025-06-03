@@ -4,8 +4,8 @@ using UnityEngine;
 public class SoundData : ScriptableObject
 {
     public string musicName;
-    public string danceName;
+    public string animationName;
     public TextAsset notesConfig;
-    public float Speed;
+    public float speed;
     
 }

@@ -2,14 +2,14 @@ using UnityEngine;
 using System.Collections.Generic;
 using System;
 
-[SerializeField]
+[Serializable]
 public class NoteData
 {
     public float time;
     public int lane;
 }
 
-[SerializeField]
+[Serializable]
 public class NoteChart
 {
     public List<NoteData> notes;
